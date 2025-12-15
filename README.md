@@ -1,0 +1,3 @@
+This project implements a Multitask Convolutional Neural Network (CNN) designed to execute two tasks simultaneously from a single input image: Facial Emotion Classification and Ethnicity Classification.
+
+The core contribution of this work involves enhancing dataset diversity by adding and annotating over 3000+ South Asian facial images. To improve model generalization and mitigate overfitting, particularly in the Emotion task, strong regularization techniques, including high Dropout rates and L2 Regularization, were successfully applied. The model architecture uses a shared feature base feeding into two distinct output heads, ensuring both efficiency and accuracy.
